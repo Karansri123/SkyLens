@@ -67,7 +67,7 @@ const Navbar = ({ onSearch = () => {} }) => {
         }}
       >
         <GpsFixedIcon />
-        <p style={{ fontSize: "14px" }}>Current Location</p>
+        <p style={{ fontSize: "14px" }}>Current Location</p>     
       </div>
     </nav>
   );

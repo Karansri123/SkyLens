@@ -5,6 +5,7 @@ import Mainweather from "../src/components/Mainweather";
 import FiveDayForecast from "../src/components/fiveday";
 import TodayHighlights from "../src/components/TodayHighlights";
 import axios from "axios";
+import Footer from "../src/components/Footer";
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
@@ -77,6 +78,7 @@ function App() {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 };
